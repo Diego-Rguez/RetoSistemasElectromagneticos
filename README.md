@@ -12,4 +12,4 @@ Cálculo y simulación de la desaceleración por frenado magnético en una torre
 
 ## 🧰 Herramientas utilizadas
 
-Este proyecto fue desarrollado utilizando **MATLAB** como entorno de programación y simulación.
+Este proyecto es desarrollado utilizando **MATLAB** como entorno de programación y simulación.
