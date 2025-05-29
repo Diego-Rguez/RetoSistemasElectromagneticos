@@ -9,3 +9,6 @@ En este repositorio se encuentra el código y la explicación física del reto d
 
 ## RETO
 Cálculo y simulación de la desaceleración por frenado magnético en una torre de caída en parques de diversiones
+
+## Software de codigo utilizado:
+Matlab
