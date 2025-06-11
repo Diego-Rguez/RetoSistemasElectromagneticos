@@ -31,11 +31,11 @@ $$
 
 donde:
 
-- \( \mu_0 \) es la **permeabilidad del vacío** (\( \mu_0 = 4\pi \times 10^{-7} \, \text{N/A}^2 \)),
-- \( I \) es la **corriente eléctrica** en el conductor,
-- \( d\mathbf{l} \) es el **vector diferencial de longitud** del conductor,
-- \( \mathbf{r} \) es el **vector posición** desde el elemento de corriente al punto de observación,
-- \( \times \) denota el **producto vectorial**.
+- μ₀ es la **permeabilidad del vacío** (μ₀ = 4π × 10⁻⁷ N·A⁻²),
+- I es la **corriente eléctrica** en el conductor,
+- dl es el **vector diferencial de longitud** del conductor,
+- r es el **vector posición** desde el elemento de corriente al punto de observación,
+- × denota el **producto vectorial**.
 
 Esta expresión permite calcular el campo magnético en un punto debido a una distribución de corriente en el espacio.
 Gracias a esta formula pudimos calcular la contribucion de cada segmento del solenoide para posteriormente hacer la sumatoria de estas contriubciones y obtener el campo magnetico en cada punto 
