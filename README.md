@@ -41,7 +41,7 @@ Esta expresión permite calcular el campo magnético en un punto debido a una di
 Gracias a esta formula pudimos calcular la contribucion de cada segmento del solenoide para posteriormente hacer la sumatoria de estas contriubciones y obtener el campo magnetico en cada punto.
 Teniendo terminado el calculo del campo magnetico procedimos a hacer la visualizacion del campo magnetico con mapa de colores y las lineas de flujo del mismo.
 
-En cuanto a la simulacion del dipolo comenzamos de igual manear definiendo los parametros del mismo y haciendo nuestras funciones de runge kutta de orden cuatro y del calculo de la acceleracion donde definimos lo siguiente:
+En cuanto a la simulacion del dipolo comenzamos de igual manear definiendo los parametros del mismo y haciendo nuestras funciones de runge kutta de orden cuatro y del calculo de la acceleracion en donde se necesitaronm las siguientes formulas:
 **Fuerza magnética**:  
 Fm = − **m** · ∇**B**  
 (momento magnético por el gradiente del campo magnético)
@@ -58,5 +58,6 @@ F = Fm + Ff + w
 a = F / m  
 (según la segunda ley de Newton)
 
+Ya que teniamos nuestras funciones listas, hicimos el calculo de las posiciones del dipolo en caida libre para la comparacion futura que se haria. En cuanto a la caida del dipolo con freno magnetico, se realizo el calculo del gradiente para determinar la fuerza magnetica de nuestro dipolo y que este verdaderamente se frenara, ya que sin gradiente no hay frenado. Finalmente se realizo la grafica comparativa del dipolo en caida libre vs el dipolo con freno magnetico y posteriormente se realizo la simulacion en formato video donde se ve que efectivamente nuestro dipolo se frena casi al entrar al solenoide.
 
 
