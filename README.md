@@ -16,3 +16,6 @@ Este proyecto es desarrollado utilizando **MATLAB** como entorno de programació
 
 ## Aclaraciones
 En cuanto a los archivos de runge kutta y el del calculo de aceleracion, estos no se incluyeron al repositorio ya que las funciones las creamos en el mismo archivo mlx que toda la demas parte del codigo.
+## Explicacion
+### Resumen del fenomeno fisico
+Cuando un imán (dipolo magnético) cae dentro de un solenoide por acción de la fuerza gravitatoria, el campo magnético del imán interacciona con el solenoide. La interacción resultante genera una fuerza de frenado magnético que ralentiza la caída del imán. El fenómeno que ocurre aquí puede ser aprovechado de muchas formas como se aprovecha en el frenado magnético sin contacto.
