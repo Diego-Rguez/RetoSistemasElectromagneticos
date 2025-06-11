@@ -13,3 +13,6 @@ Cálculo y simulación de la desaceleración por frenado magnético en una torre
 ## 🧰 Herramientas utilizadas
 
 Este proyecto es desarrollado utilizando **MATLAB** como entorno de programación y simulación.
+
+## Aclaraciones
+En cuanto a los archivos de runge kutta y el del calculo de aceleracion, estos no se incluyeron al repositorio ya que las funciones las creamos en el mismo archivo mlx que toda la demas parte del codigo.
