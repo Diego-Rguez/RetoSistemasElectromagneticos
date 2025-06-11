@@ -19,8 +19,8 @@ En cuanto a los archivos de runge kutta y el del calculo de aceleracion, estos n
 ## Explicacion
 ### Resumen del fenomeno fisico
 Cuando un imán (dipolo magnético) cae dentro de un solenoide por acción de la fuerza gravitatoria, el campo magnético del imán interacciona con el solenoide. La interacción resultante genera una fuerza de frenado magnético que ralentiza la caída del imán. El fenómeno que ocurre aquí puede ser aprovechado de muchas formas como se aprovecha en el frenado magnético sin contacto.
-### Explicacion general del codigo
-Para la simulacion de nuestro freno magnetico primero se definieron los parametros de nuestro solenoide. Posteriormente se creo la malla 2D para el calculo del campo magnetico, para el calculo del campo magnetico se utilizo la formula siguiente:
+### explicación general del Código
+Para la simulación de nuestro freno magnético primero se definieron los parámetros de nuestro solenoide. Posteriormente se creó la malla 2D para el cálculo del campo magnético, para el cálculo del campo magnético se utilizó la formula siguiente:
   #### Ley de Biot-Savart
 
 La Ley de Biot-Savart describe el campo magnético **𝐁** generado por un elemento de corriente **𝐈** a lo largo de un conductor:
@@ -38,10 +38,10 @@ donde:
 - × denota el **producto vectorial**.
 
 Esta expresión permite calcular el campo magnético en un punto debido a una distribución de corriente en el espacio.
-Gracias a esta formula pudimos calcular la contribucion de cada segmento del solenoide para posteriormente hacer la sumatoria de estas contriubciones y obtener el campo magnetico en cada punto.
-Teniendo terminado el calculo del campo magnetico procedimos a hacer la visualizacion del campo magnetico con mapa de colores y las lineas de flujo del mismo.
+Gracias a esta fórmula pudimos calcular la contribución de cada segmento del solenoide para posteriormente hacer la sumatoria de estas contribuciones y obtener el campo magnético en cada punto.
+Teniendo terminado el cálculo del campo magnético procedimos a hacer la visualización del campo magnético con mapa de colores y las líneas de flujo del mismo.
 
-En cuanto a la simulacion del dipolo comenzamos de igual manear definiendo los parametros del mismo y haciendo nuestras funciones de runge kutta de orden cuatro y del calculo de la acceleracion en donde se necesitaronm las siguientes formulas:
+En cuanto a la simulación del dipolo comenzamos de igual manear definiendo los parámetros del mismo y haciendo nuestras funciones de Runge Kutta de orden cuatro y del cálculo de la aceleración en donde se necesitaron las siguientes formulas:
 **Fuerza magnética**:  
 Fm = − **m** · ∇**B**  
 (momento magnético por el gradiente del campo magnético)
@@ -58,6 +58,6 @@ F = Fm + Ff + w
 a = F / m  
 (según la segunda ley de Newton)
 
-Ya que teniamos nuestras funciones listas, hicimos el calculo de las posiciones del dipolo en caida libre para la comparacion futura que se haria. En cuanto a la caida del dipolo con freno magnetico, se realizo el calculo del gradiente para determinar la fuerza magnetica de nuestro dipolo y que este verdaderamente se frenara, ya que sin gradiente no hay frenado. Finalmente se realizo la grafica comparativa del dipolo en caida libre vs el dipolo con freno magnetico y posteriormente se realizo la simulacion en formato video donde se ve que efectivamente nuestro dipolo se frena casi al entrar al solenoide.
+Ya que tenemos nuestras funciones listas, hicimos el cálculo de las posiciones del dipolo en caída libre para la comparación futura que se haría. En cuanto a la caída del dipolo con freno magnético, se realizó el cálculo del gradiente para determinar la fuerza magnética de nuestro dipolo y que este verdaderamente se frenara, ya que sin gradiente no hay frenado. Finalmente se realizó la gráfica comparativa del dipolo en caída libre vs el dipolo con freno magnético y posteriormente se realizó la simulación en formato video donde se ve que efectivamente nuestro dipolo se frena casi al entrar al solenoide.
 
 
