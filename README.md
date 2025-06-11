@@ -38,4 +38,25 @@ donde:
 - × denota el **producto vectorial**.
 
 Esta expresión permite calcular el campo magnético en un punto debido a una distribución de corriente en el espacio.
-Gracias a esta formula pudimos calcular la contribucion de cada segmento del solenoide para posteriormente hacer la sumatoria de estas contriubciones y obtener el campo magnetico en cada punto 
+Gracias a esta formula pudimos calcular la contribucion de cada segmento del solenoide para posteriormente hacer la sumatoria de estas contriubciones y obtener el campo magnetico en cada punto.
+Teniendo terminado el calculo del campo magnetico procedimos a hacer la visualizacion del campo magnetico con mapa de colores y las lineas de flujo del mismo.
+
+En cuanto a la simulacion del dipolo comenzamos de igual manear definiendo los parametros del mismo y haciendo nuestras funciones de runge kutta de orden cuatro y del calculo de la acceleracion donde definimos lo siguiente:
+**Fuerza magnética**:  
+Fm = − **m** · ∇**B**  
+(momento magnético por el gradiente del campo magnético)
+
+**Fuerza de fricción**:  
+Ff = −γ · v  
+(resistencia viscosa proporcional a la velocidad)
+
+**Fuerza neta**:  
+F = Fm + Ff + w  
+(suma de la fuerza magnética, fricción y peso)
+
+**Aceleración**:  
+a = F / m  
+(según la segunda ley de Newton)
+
+
+
