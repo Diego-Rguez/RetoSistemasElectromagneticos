@@ -19,7 +19,7 @@ En cuanto a los archivos de runge kutta y el del calculo de aceleracion, estos n
 ## Explicacion
 ### Resumen del fenomeno fisico
 Cuando un imán (dipolo magnético) cae dentro de un solenoide por acción de la fuerza gravitatoria, el campo magnético del imán interacciona con el solenoide. La interacción resultante genera una fuerza de frenado magnético que ralentiza la caída del imán. El fenómeno que ocurre aquí puede ser aprovechado de muchas formas como se aprovecha en el frenado magnético sin contacto.
-### explicación general del Código
+### Explicación general del Código
 Para la simulación de nuestro freno magnético primero se definieron los parámetros de nuestro solenoide. Posteriormente se creó la malla 2D para el cálculo del campo magnético, para el cálculo del campo magnético se utilizó la formula siguiente:
   #### Ley de Biot-Savart
 
