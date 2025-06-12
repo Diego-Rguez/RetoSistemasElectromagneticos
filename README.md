@@ -43,6 +43,7 @@ Gracias a esta fórmula pudimos calcular la contribución de cada segmento del s
 Teniendo terminado el cálculo del campo magnético procedimos a hacer la visualización del campo magnético con mapa de colores y las líneas de flujo del mismo.
 
 En cuanto a la simulación del dipolo comenzamos de igual manear definiendo los parámetros del mismo y haciendo nuestras funciones de Runge Kutta de orden cuatro y del cálculo de la aceleración en donde se necesitaron las siguientes formulas:
+
 **Fuerza magnética**:  
 Fm = − **m** · ∇**B**  
 (momento magnético por el gradiente del campo magnético)
